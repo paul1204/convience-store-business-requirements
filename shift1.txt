@@ -1,0 +1,45 @@
+Truck Stop Shift Report - Morning Shift - Date: 2024-04-01
+
+Employee ID: 1
+Manager ID: 100
+Shift Number:1
+
+Starting Drawer POS 1: 100
+Starting Drawer POS 2: 200
+
+Fuel Sales:
+- Diesel Transactions: 150
+- Regular Gasoline Transactions: 50
+    - Total Gallons: 1000
+    - Total Sales: $3,500.00
+- Mid-Grade Gasoline Transactions: 20
+    - Total Gallons: 400
+    - Total Sales: $1,400.00
+- Premium Gasoline Transactions: 10
+    - Total Gallons: 200
+    - Total Sales: $700.00
+- Total Gasoline Sales: $5,600.00
+
+Convenience Store Sales:
+- Coffee: 120
+- Sodas: 80
+- Water Bottles: 200
+- Beer: 50
+- Medication: 30
+- Total Sales: $3,200.00
+
+Restaurant Sales:
+- Breakfast Meals: 80
+- Lunch Meals: 100
+- Dinner Meals: 70
+- Total Sales: $3,000.00
+
+Tobacco Sales:
+- Cigarettes: 100
+- Total Sales: 500
+
+Shift Notes:
+- High diesel transaction volume due to increased truck traffic.
+- Busy morning rush for coffee.
+- Snack sales boosted by promotional offer.
+- Restaurant experienced steady traffic throughout the shift.
