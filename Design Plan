@@ -1,0 +1,56 @@
+Key Components; 
+
+User Interface – JET User can view analytical data in JET 
+
+Backend Services – Java Spring Boot 
+
+Data Storage – S3, Physical Hard Drives (Client would like backups of S3 data.) 
+
+Integration Layer – From Verifone Ruby POS to the Bootable Linux Flash Drive. The Linux image is able to push the Shift Information to S3. The SaaS application would then consume this Shift information and update Accounting Records. The Front end, JET would allow users to inquire data. 
+
+Scalability Considerations - Multiple stores, multiple regions. Evaluate the size of one store and determine the distribution of resources. 
+
+Ruby POS Report Format -Shift Report Example has been generated and provided. See ShiftExample.txt  
+
+Linux to S3 – Create a Bootable machine that can connect to S3.  
+
+Create Ingestion of Shift Report  
+
+Microservice Project Structure  
+
+project-root/
+├── accounting-service/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   └── resources/
+│   │   └── test/
+│   └── pom.xml
+├── inventory-service/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   └── resources/
+│   │   └── test/
+│   └── pom.xml
+├── customer-service/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   └── resources/
+│   │   └── test/
+│   └── pom.xml
+├── order-service/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   └── resources/
+│   │   └── test/
+│   └── pom.xml
+└── gateway-service/
+    ├── src/
+    │   ├── main/
+    │   │   ├── java/
+    │   │   └── resources/
+    │   └── test/
+    └── pom.xml
