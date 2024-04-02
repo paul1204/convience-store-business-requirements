@@ -3,3 +3,5 @@ This repository will hold the business requirements for a client that owns multi
 The owner would like to migrate to a SaaS instead of manual data entry into QuickBooks
 We have integrated with the Legacy POS system to be able to upload Shift Data into Amazon's S3. 
 The SaaS will consume and keep accounting record
+
+See Business Requirements to understand the Business Needs
